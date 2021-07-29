@@ -55,13 +55,13 @@ In Gitbash input: `./puppeth`
 
 6. You can choose `no` for pre-funding the pre-compiled accounts (0x1 .. 0xff) with wei. This keeps the genesis cleaner.
 
-    ![genesis_config](/Screenshots/Genesis_Block_config.png)
+    ![genesis](/Screenshots/Genesis_Block_config.png)
 
 7. for choice of seconds each block takes, you can just hit enter for default or you can enter you own time setting, and when you are back at the main menu, choose the `"Manage existing genesis"` option.
 
 8. Export genesis configurations. This will fail to create two of the files, but you only need networkname.json.
 
-    ![manage_and_export](/Screenshots/manage_and_export.PNG)
+    ![manage](/Screenshots/manage_and_export.png)
 
 **Step 4: Initialize nodes and start mining**
 1. In Gitbash input: following commands to initialize node 1 & 2.
@@ -69,7 +69,7 @@ In Gitbash input: `./puppeth`
 `./geth --datadir node1 init yournetworkname.json`
 `./geth --datadir node2 init yournetworkname.json`
 
-    ![Initial_node](/Screenshots/Initial_node.PNG)
+    ![Initial_node](/Screenshots/Initial_node.png)
 
 2. In Gitbash input: the following command for node 1.
 **change `Your Node 1 Public Address Here` to your own public address**
@@ -79,7 +79,7 @@ In Gitbash input: `./puppeth`
 * Type your password and hit enter - even if you can't see it visually!
 
     Node1:
-    ![node1](/Screenshots/node1.PNG)
+    ![node1](/Screenshots/node1.png)
 
 3. open a **new Gitbash/terminal** and change directories to Go Ethereum Tools.
 
@@ -90,7 +90,7 @@ In Gitbash input: `./puppeth`
 * Type your password and hit enter - even if you can't see it visually!
 
     Node2:
-    ![node2](/Screenshots/node2.PNG)
+    ![node2](/Screenshots/node2.png)
 
 
 **Step 5: start using you testnet**
@@ -109,7 +109,7 @@ In Gitbash input: `./puppeth`
 
 7. Finally, click Save & Use Custom Node.
 
-    ![mycrypto_setup](/Screenshots/mycrypto_setup.PNG)
+    ![mycrypto](/Screenshots/mycrypto_setup.png)
 
 
 **Step 7: Testing**
@@ -123,6 +123,6 @@ In Gitbash input: `./puppeth`
 8. Click the `Check TX Status` when the green message pops up and confirm the logout
 9. You should see the transaction go from `Pending` to `Successful` in around the same blocktime you set in the genesis.
 10. You can click the `Check TX Status` button to update the status.
-    ![transactions](/Screenshots/transactions.PNG)
+    ![transactions](/Screenshots/transactions.png)
 
 **Good Luck on Your Own Testnet!**
